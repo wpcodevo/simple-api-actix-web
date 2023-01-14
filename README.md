@@ -13,7 +13,7 @@ In this comprehensive guide, you'll build a simple CRUD API in Rust using the Ac
 - Add the CRUD Functionalities
     - Health Checker Route
     - Fetch All Records
-    - Fetch All Records
+    - Add a New Record
     - Retrieve a Single Record
     - Edit a Record
     - Delete a Record
