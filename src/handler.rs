@@ -167,7 +167,7 @@ async fn delete_todo_handler(path: web::Path<String>, data: web::Data<AppState>)
     }
 
     vec.retain(|todo| todo.id != Some(id.to_owned()));
-    return HttpResponse::NoContent().json("");
+    HttpResponse::NoContent().finish()
 }
 
 pub fn config(conf: &mut web::ServiceConfig) {
